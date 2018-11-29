@@ -29,7 +29,7 @@ function clearGrid() {
 function getGridSize() {
 	size = prompt("Give new grid size (2-100). Cancel resets to default size (16).", '');
 	if (size > 100 || size < 2 || parseInt(size) != size) {
-		alert("Resetting to default size 16");
+		alert("Resetting to default size 16.");
 		setGrid(16);
 	} else {
 		return size;
