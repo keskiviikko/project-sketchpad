@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+}
+
+body {
+	background-color: rgb(235, 235, 235);
+}
+
+header {
+	margin: 40px 0 25px 0;
+	text-align: center;
+}
+
+footer {
+	margin: 50px 0 10px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+a {
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 14px;
+}
+
+p {
+	font-size: 10px;
+	text-align: center;
+}
+
+#flex-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#grid-container {
+	background-color: white;
+	border: 1px solid lightgray;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+#button-container {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0;
+}
+
+#mode {
+	color: white;
+	background-color: black;
+}
+
+#mode:hover {
+    background-color: lightcoral;
+	animation: myfirst 3s;
+	-moz-animation:myfirst 3s infinite; /* Firefox */
+    -webkit-animation: myfirst 3s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes myfirst /* Firefox */ {
+	12.5% {
+		background-color: #FF0000;
+	  }
+	  25% {
+		background-color: #FFA500;
+	  }
+	  37.5% {
+		background-color: #FFFF00;
+	  }
+	  50% {
+		background-color: #7FFF00;
+	  }
+	  62.5% {
+		background-color: #00FFFF;
+	  }
+	  75% {
+		background-color: rgb(0, 110, 255);
+	  }
+	  87.5% {
+		background-color: #9932CC;
+	  }
+	  100% {
+		background-color: #FF1493;
+	  }
+	}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */ {
+	12.5% {
+		background-color: #FF0000;
+	  }
+	  25% {
+		background-color: #FFA500;
+	  }
+	  37.5% {
+		background-color: #FFFF00;
+	  }
+	  50% {
+		background-color: #7FFF00;
+	  }
+	  62.5% {
+		background-color: #00FFFF;
+	  }
+	  75% {
+		background-color: rgb(0, 110, 255);
+	  }
+	  87.5% {
+		background-color: #9932CC;
+	  }
+	  100% {
+		background-color: #FF1493;
+	  }
+	}
+
+button {
+	border: none;
+	box-shadow: 1px 1px 2px black;
+	font-size: 20px;
+	border-radius: 2px;
+	background-color: white;
+	padding: 10px 10px;
+	display: block;
+	margin: 0 10px;
+}
+
+button:hover {
+	transition: .3s;
+	background-color: lightgoldenrodyellow;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.square {
+	box-sizing: border-box;
+	border: 1px solid rgba(196, 196, 196, 0.40);
+	float: left;
+	vertical-align: top;
+	background-color: white;
+}
