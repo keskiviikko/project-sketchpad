@@ -65,7 +65,7 @@ p {
 }
 
 #mode:hover {
-    background-color: lightcoral;
+    background-color: #FF0000;
 	animation: myfirst 3s;
 	-moz-animation:myfirst 3s infinite; /* Firefox */
     -webkit-animation: myfirst 3s infinite; /* Safari and Chrome */
@@ -129,16 +129,16 @@ button {
 	border: none;
 	box-shadow: 1px 1px 2px black;
 	font-size: 20px;
-	border-radius: 2px;
+	border-radius: 4px;
 	background-color: white;
 	padding: 10px 10px;
 	display: block;
-	margin: 0 10px;
+	margin: 0 15px;
 }
 
 button:hover {
 	transition: .3s;
-	background-color: lightgoldenrodyellow;
+	background-color: rgb(236, 250, 210);
 }
 
 button:focus {
